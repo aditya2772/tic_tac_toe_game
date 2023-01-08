@@ -1,0 +1,27 @@
+.row {
+    background-color: rgb(164, 208, 239);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 96px;
+    margin: auto;
+  }
+  
+  .game-zone {
+    display: grid;
+    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3, 10vw);
+    justify-content: center;
+  }
+  .box {
+    border: 2px solid black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vw;
+  }
+  
+  .box:hover {
+    background-color: white;
+  }
+  
